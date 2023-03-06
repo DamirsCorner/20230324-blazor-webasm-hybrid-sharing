@@ -1,5 +1,5 @@
+using BlazorShared;
 using BlazorShared.Data;
-using BlazorWebAsm;
 using BlazorWebAsm.Data;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
