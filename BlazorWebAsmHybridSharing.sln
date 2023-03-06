@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWebAsm", "BlazorWebAsm\BlazorWebAsm.csproj", "{6379802A-8382-448B-9E94-0DA61DCC782F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorWebAsm", "BlazorWebAsm\BlazorWebAsm.csproj", "{6379802A-8382-448B-9E94-0DA61DCC782F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorHybrid", "BlazorHybrid\BlazorHybrid.csproj", "{65836037-A58F-4530-9D7C-02051485144A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorHybrid", "BlazorHybrid\BlazorHybrid.csproj", "{65836037-A58F-4530-9D7C-02051485144A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorShared", "BlazorShared\BlazorShared.csproj", "{F02A8C60-FCE9-42DA-B0D1-7C7D0471E2E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{65836037-A58F-4530-9D7C-02051485144A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65836037-A58F-4530-9D7C-02051485144A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{65836037-A58F-4530-9D7C-02051485144A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{F02A8C60-FCE9-42DA-B0D1-7C7D0471E2E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F02A8C60-FCE9-42DA-B0D1-7C7D0471E2E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F02A8C60-FCE9-42DA-B0D1-7C7D0471E2E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F02A8C60-FCE9-42DA-B0D1-7C7D0471E2E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
