@@ -9,6 +9,7 @@
         <RootNamespace>BlazorHybrid</RootNamespace>
         <UseMaui>true</UseMaui>
         <SingleProject>true</SingleProject>
+        <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
         <EnableDefaultCssItems>false</EnableDefaultCssItems>
 

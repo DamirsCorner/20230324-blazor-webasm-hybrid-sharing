@@ -1,7 +1,7 @@
 ﻿@page "/fetchdata"
 
-@using BlazorHybrid.Data
-@inject WeatherForecastService ForecastService
+@using BlazorShared.Data;
+@inject IWeatherForecastService ForecastService
 
 <h1>Weather forecast</h1>
 
@@ -37,7 +37,7 @@ else
 }
 
 @code {
-    private WeatherForecast[] forecasts;
+    private WeatherForecast[]? forecasts;
 
     protected override async Task OnInitializedAsync()
     {

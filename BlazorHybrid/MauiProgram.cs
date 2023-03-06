@@ -1,4 +1,5 @@
 ﻿using BlazorHybrid.Data;
+using BlazorShared.Data;
 using Microsoft.Extensions.Logging;
 
 namespace BlazorHybrid;
@@ -17,11 +18,11 @@ public static class MauiProgram
         builder.Services.AddMauiBlazorWebView();
 
 #if DEBUG
-		builder.Services.AddBlazorWebViewDeveloperTools();
-		builder.Logging.AddDebug();
+        builder.Services.AddBlazorWebViewDeveloperTools();
+        builder.Logging.AddDebug();
 #endif
 
-        builder.Services.AddSingleton<WeatherForecastService>();
+        builder.Services.AddSingleton<IWeatherForecastService, WeatherForecastService>();
 
         return builder.Build();
     }
